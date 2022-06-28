@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Heebo:wght@300&family=Roboto:ital,wght@0,300;1,400&family=Rubik&family=Square+Peg&display=swap');
+
+.body{
+    font-family: 'Cabin', sans-serif;
+    background-color: rgb(88, 61, 61);
+}
+.about-1{
+    background-color: rgb(3, 95, 64);
+}
+.about-1 h2{
+text-align: center;
+color: white;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-left{
+    width: 400px;
+    /* height: 385px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 30px 150px;
+}
+.about-left h2{
+    margin-left: 8px;
+}
+.about-left p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 6px 28px;
+}
+.about-right{
+    margin: 30px -100px;
+
+}
+.about-right img{
+width: 325px;
+height: 325px;
+margin: 50px -25px;
+
+}
+.content-take{
+    display: flex;
+}
+.inspire img{
+    width: 100%;
+    height: 400px;
+}

@@ -1,0 +1,26 @@
+.max-widht-1{
+    max-width: 80vw;
+}
+.max-widht-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 2px 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+.btn :hover {
+    background-color: rgb(241, 124, 103);
+}
+.form-box input , textarea{
+    width: 44vw;
+    padding: 10px 6px;
+    margin: 7px;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Heebo:wght@300&family=Roboto:ital,wght@0,300;1,400&family=Rubik&family=Square+Peg&display=swap');
+
+
+
+.post-img img{
+    width: 98%;
+    height: 550px;
+    
+}
+.post-img{
+    height: 500px;
+    overflow: hidden;
+}
+.content-1 h2{
+   text-align: center;
+   margin-top: 40px;
+   font-size: 32px;
+  
+}
+.content-1{
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+.content-1 p{
+    padding: 11px 70px;
+    text-align: left;
+}
+
+.row{
+    display: flex;
+}
+.home-article-1 h2{
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.article{
+    flex-direction: column;
+}
+.mega-post{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 234px;
+}
+.social img{
+    width: 150px ;
+    height: 50px;
+    cursor: pointer;
+}
