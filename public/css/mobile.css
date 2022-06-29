@@ -1,0 +1,66 @@
+@media screen and (max-width: 1280px) {
+    .navbar{
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 49px;
+        padding: 0
+    }
+    .content-right{
+        display: none;
+    }
+    .article{
+        text-align: center;
+        flex-direction: column;
+    }
+    .year-box{
+        display: flex;
+        font-size: 12px;
+        font-size: 12px;
+        padding: 0;
+        top: 20px;
+        left: 70vw;
+        right: 40px;
+    }
+    .home-article h2{
+        
+        margin-bottom: 26px;
+    }
+    .article-img img{
+        width: 60vw;
+    }
+    .max-widht-1{
+        max-width:  100vw;
+    }
+    .form-box input, textarea{
+        font-size: 15px;
+        width: 66vw;
+    }
+    .post-img{
+        height: inherit;
+    }
+    .post-img img{
+        height: 40vh;
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .about-left{
+        text-overflow: inherit;
+    }
+    .content-take{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 45px;
+    }
+    .mega-post{
+        margin: 7px 30px;
+    }
+    .content-1 p{
+        padding: 10px 10px;
+    }
+}
